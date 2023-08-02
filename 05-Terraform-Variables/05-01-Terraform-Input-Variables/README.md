@@ -197,10 +197,11 @@ terraform fmt
 # Review the terraform plan
 terraform plan 
 ```
-## Step-08: Implement complex type cosntructors like `list` and `maps`
+
+## Step-08: Implement complex type constructors like `list` and `maps`
 - **Reference Sub folder:** v8-Input-Variables-Lists-Maps
 - [Type Constraints](https://www.terraform.io/docs/language/expressions/types.html)
-### Step-08-01: Implement Vairable Type as List
+### Step-08-01: Implement Variable Type as List
 - **list (or tuple):** a sequence of values, like ["us-west-1a", "us-west-1c"]. Elements in a list or tuple are identified by consecutive whole numbers, starting with zero.
 - Implement List function for variable `ec2_instance_type`
 ```t
@@ -229,7 +230,7 @@ terraform fmt
 terraform plan 
 ```
 
-### Step-08-02: Implement Vairable Type as Map
+### Step-08-02: Implement Variable Type as Map
 - **map (or object):** a group of values identified by named labels, like {name = "Mabel", age = 52}.
 - Implement Map function for variable `ec2_instance_tags`
 ```t
