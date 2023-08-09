@@ -6,7 +6,12 @@ variable "bucket_name" {
 }
 
 variable "tags" {
-  description = "Tages to set on the bucket"
+  description = "Tags to set on the bucket"
   type        = map(string)
   default     = {}
+}
+
+variable "aws_region" {
+  description = "Region where the bucket is"
+  default     = "us-east-1"
 }
