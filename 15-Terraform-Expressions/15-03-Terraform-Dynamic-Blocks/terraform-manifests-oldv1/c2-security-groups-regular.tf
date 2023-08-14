@@ -36,12 +36,12 @@ resource "aws_security_group" "sg-regular" {
     to_port     = 7080
     protocol    = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
-  }      
+  }
   ingress {
     description = "description 5"
     from_port   = 7081
     to_port     = 7081
     protocol    = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
-  }      
+  }
 }

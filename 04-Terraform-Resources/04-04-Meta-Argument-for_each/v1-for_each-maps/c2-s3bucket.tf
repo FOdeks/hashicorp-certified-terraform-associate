@@ -13,7 +13,7 @@ resource "aws_s3_bucket" "mys3bucket" {
 
   bucket = "${each.key}-${each.value}"
   #acl    = "private" # This argument is deprecated, so commenting it. 
-  
+
 
   tags = {
     Environment = each.key

@@ -1,6 +1,6 @@
 # Terraform Block
 terraform {
-  required_version = ">= 1.4" 
+  required_version = ">= 1.4"
   required_providers {
     aws = {
       source  = "hashicorp/aws"
@@ -11,12 +11,12 @@ terraform {
   backend "s3" {
     bucket = "terraform-stacksimplify"
     key    = "statecommands/terraform.tfstate"
-    region = "us-east-1" 
+    region = "us-east-1"
 
     # Enable during Step-09     
     # For State Locking
-    dynamodb_table = "terraform-dev-state-table"    
-    
+    dynamodb_table = "terraform-dev-state-table"
+
   }
 }
 

@@ -5,11 +5,11 @@ locals {
 
 # Create Security Group using Terraform Dynamic Block
 resource "aws_security_group" "sg-dynamic" {
-  name = "dynamic-block-demo"
+  name        = "dynamic-block-demo"
   description = "dynamic-block-demo"
 
   dynamic "ingress" {
-    for_each = local.ports 
+    for_each = local.ports
     content {
       description = "description ${ingress.key}"
       from_port   = ingress.value

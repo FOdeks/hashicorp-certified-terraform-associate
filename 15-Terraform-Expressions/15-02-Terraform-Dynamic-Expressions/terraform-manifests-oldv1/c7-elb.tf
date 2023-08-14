@@ -1,6 +1,6 @@
 # AWS ELB
 resource "aws_elb" "elb" {
-  name    = "my-elb"
+  name = "my-elb"
   listener {
     instance_port     = 80
     instance_protocol = "http"
@@ -21,11 +21,11 @@ resource "aws_elb" "elb" {
   connection_draining_timeout = 400
 
   # Splat Expression
-  instances                   = aws_instance.my-ec2-vm[*].id
+  instances = aws_instance.my-ec2-vm[*].id
 
   # Dynamic Expressions
-  count = (var.high_availability == true ? 1 : 0)
+  count              = (var.high_availability == true ? 1 : 0)
   availability_zones = var.availability_zones
-  tags = local.common_tags
+  tags               = local.common_tags
 }
 

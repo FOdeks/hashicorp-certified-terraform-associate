@@ -11,12 +11,12 @@ terraform {
   backend "s3" {
     bucket = "terraform-stacksimplify"
     key    = "dev/terraform.tfstate"
-    region = "us-east-1" 
-/*
+    region = "us-east-1"
+    /*
     # Enable during Step-09     
     # For State Locking
     dynamodb_table = "terraform-dev-state-table"    
-*/    
+*/
   }
 }
 

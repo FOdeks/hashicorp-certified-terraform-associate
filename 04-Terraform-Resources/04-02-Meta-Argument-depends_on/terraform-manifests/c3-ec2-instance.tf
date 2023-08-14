@@ -16,7 +16,7 @@ resource "aws_instance" "my-ec2-vm" {
     EOF
   tags = {
     "Name" = "myec2vm"
-  }    
+  }
 }
 
 

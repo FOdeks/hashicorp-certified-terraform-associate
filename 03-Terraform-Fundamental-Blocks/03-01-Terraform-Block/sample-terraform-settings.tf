@@ -8,7 +8,7 @@ terraform {
       version = "~> 3.21" # Optional but recommended
     }
     random = {
-      source = "hashicorp/random"
+      source  = "hashicorp/random"
       version = "3.0.1"
     }
   }
@@ -19,7 +19,7 @@ terraform {
     region = "us-east-1"
   }
   # Experimental Features (Not required)
-  experiments = [ example ]
+  experiments = [example]
   # Passing Metadata to Providers (Super Advanced - Terraform documentation says not needed in many cases)
   provider_meta "my-provider" {
     hello = "world"
