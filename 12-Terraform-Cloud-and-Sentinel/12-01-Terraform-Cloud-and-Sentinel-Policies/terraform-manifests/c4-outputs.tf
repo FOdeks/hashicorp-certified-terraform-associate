@@ -1,4 +1,4 @@
-# Output variable definitions
+# Output variable definition
 /*
 output "endpoint" {
   description = "Endpoint Information of the bucket"
