@@ -5,7 +5,7 @@ variable "aws_region" {
   default = "us-east-1"
 }
 
-## Create Variable for S3 Bucket Nam
+## Create Variable for S3 Bucket Name
 variable "my_s3_bucket" {
   description = "S3 Bucket name that we pass to S3 Custom Module"
   type = string
