@@ -7,7 +7,7 @@ terraform {
       version = "~> 5.0"
     }
   }
-  # Update Terraform Cloud Backend Block Information belo
+  # Update Terraform Cloud Backend Block Information below
   backend "remote" {
     organization = "hcta-demo1"
 
