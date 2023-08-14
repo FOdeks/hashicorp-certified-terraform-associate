@@ -8,7 +8,7 @@ terraform {
     }
   }
 }
-# Update backend information as Terraform Clo
+# Update backend information as Terraform Cloud
 terraform {
   cloud {
     organization = "FandF"
