@@ -1,4 +1,4 @@
-# Create EC2 Instnace Resource
+# Create EC2 Instnace Resour
 resource "aws_instance" "myec2vm" {
   /* 
   ami = "ami-038f1ca1bd58a5790"
