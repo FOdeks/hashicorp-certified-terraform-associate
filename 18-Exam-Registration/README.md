@@ -18,7 +18,7 @@
 - If you are on MAC, you need to provide additional permissions when it asks to run system check like
 - Connect Webcam or your laptop inbuilt cam
 - Connect Microphone (No Head-Phones)
-- Connect wired ehternet line to your laptop or dekstop for good internet speed
+- Connect wired ethernet line to your laptop or desktop for good internet speed
 - As a fail back internet, enable mobile hotspot on your mobile and put that outside your room to avoid distractions
 - Install PSI Secure Browser
 
@@ -41,7 +41,7 @@
 ### Step-04-03: Proctor will Release the Exam for you to Start
 1. Don't tense.
 2. Be cool and start answering questions
-3. If you have any doubt about any question, Click on **Flag Button** so we can come back later
+3. If you have any doubt about any question, Click on **Flag Button** so you can come back later
 4. Don't Flag many questions later difficult to check all of them. 
 5. Exam Time: 60 Minutes Questions: 57
 6. I took 35 minutes to complete all the questions due to the fact most of the questions (40 to 45) will be straight forward. 
