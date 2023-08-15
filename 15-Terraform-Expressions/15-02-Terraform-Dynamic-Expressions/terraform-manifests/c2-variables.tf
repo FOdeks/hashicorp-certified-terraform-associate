@@ -19,7 +19,7 @@ variable "availability_zones" {
 
 variable "high_availability" {
   type        = bool
-  description = "If this is a multiple instance deployment, choose `true` to deploy 2 instances"
+  description = "If this is a multiple instance deployment, choose 'true' to deploy 2 instances"
   default     = false
   #default     = true
 }

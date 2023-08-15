@@ -12,7 +12,6 @@ output "ec2_publicdns" {
   value       = aws_instance.my-ec2-vm[*].public_dns
 }
 
-
 # Common Tags
 output "tags" {
   description = "Common Tags"
